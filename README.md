@@ -37,32 +37,33 @@ The .obj appendix includes the following sections:
 
 ##Index
 
-o       [File structure](#File structure)
+o       [File structure](#file-structure)
 
-o       [General statement](#General statement)
+o       [General statement](#general-statement)
 
-o       [Vertex data](#Vertex data)
+o       [Vertex data](#vertex-data)
 
-o       [Specifying free-form curves/surfaces](#Specifying free-form curves/surfaces)
+o       [Specifying free-form curves/surfaces](#specifying-free-form-curves/surfaces)
 
-o       [Free-form curve/surface attributes](#Free-form curve/surface attributes)
+o       [Free-form curve/surface attributes](#free-form-curve/surface-attributes)
 
-o       [Elements](#Elements)
+o       [Elements](#elements)
 
-o       [Free-form curve/surface body statements](#Free-form curve/surface body statements)
+o       [Free-form curve/surface body statements](#free-form-curve/surface-body-statements)
 
-o       [Connectivity between free-form surfaces](#Connectivity between free-form surfaces)
+o       [Connectivity between free-form surfaces](#connectivity-between-free-form-surfaces)
 
-o       [Grouping](#Grouping)
+o       [Grouping](#grouping)
 
-o       [Display/render attributes](#Display/render attributes)
+o       [Display/render attributes](#display/render-attributes)
 
-o       [Comments](#Comments)
+o       [Comments](#comments)
 
-o       [Mathematics for free-form curves/surfaces](#Mathematics for free-form curves/surfaces)
+o       [Mathematics for free-form curves/surfaces](#mathematics-for-free-form-curves/surfaces)
 
-o       [Superseded statements](#Superseded statements)
-o       [Patches and free-form surfaces](#Comparison of 2.11 and 3.0 syntax)
+o       [Superseded statements](#superseded-statements)
+
+o       [Patches and free-form surfaces](#comparison-of-2.11-and-3.0-syntax)
 
 ---------------
 
