@@ -43,23 +43,23 @@ o       [General statement](#general-statement)
 
 o       [Vertex data](#vertex-data)
 
-o       [Specifying free-form curves/surfaces](#specifying-free-form-curves/surfaces)
+o       [Specifying free-form curves/surfaces](#specifying-free-form-curvessurfaces)
 
-o       [Free-form curve/surface attributes](#free-form-curve/surface-attributes)
+o       [Free-form curve/surface attributes](#free-form-curvesurface-attributes)
 
 o       [Elements](#elements)
 
-o       [Free-form curve/surface body statements](#free-form-curve/surface-body-statements)
+o       [Free-form curve/surface body statements](#free-form-curvesurface-body-statements)
 
 o       [Connectivity between free-form surfaces](#connectivity-between-free-form-surfaces)
 
 o       [Grouping](#grouping)
 
-o       [Display/render attributes](#display/render-attributes)
+o       [Display/render attributes](#displayrender-attributes)
 
 o       [Comments](#comments)
 
-o       [Mathematics for free-form curves/surfaces](#mathematics-for-free-form-curves/surfaces)
+o       [Mathematics for free-form curves/surfaces](#mathematics-for-free-form-curvessurfaces)
 
 o       [Superseded statements](#superseded-statements)
 
