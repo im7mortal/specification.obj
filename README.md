@@ -1,4 +1,4 @@
-B1. Object Files (.obj)
+#B1. Object Files (.obj)
 
 Object files define the geometry and other properties for objects in
 Wavefront's Advanced Visualizer. Object files can also be used to
@@ -13,7 +13,7 @@ In this release, the .obj file format supports both polygonal objects
 and free-form objects. Polygonal geometry uses points, lines, and faces
 to define objects while free-form geometry uses curves and surfaces.
 
-About this section
+##About this section
 
 The .obj appendix is for those who want to use the .obj format to
 translate geometric data from other software applications to Wavefront
@@ -35,33 +35,34 @@ the .obj format.
 
 The .obj appendix includes the following sections:
 
-o       File structure
+##Index
 
-o       General statement
+o       [File structure](#File structure)
 
-o       Vertex data
+o       [General statement](#General statement)
 
-o       Specifying free-form curves/surfaces
+o       [Vertex data](#Vertex data)
 
-o       Free-form curve/surface attributes
+o       [Specifying free-form curves/surfaces](#Specifying free-form curves/surfaces)
 
-o       Elements
+o       [Free-form curve/surface attributes](#Free-form curve/surface attributes)
 
-o       Free-form curve/surface body statements
+o       [Elements](#Elements)
 
-o       Connectivity between free-form surfaces
+o       [Free-form curve/surface body statements](#Free-form curve/surface body statements)
 
-o       Grouping
+o       [Connectivity between free-form surfaces](#Connectivity between free-form surfaces)
 
-o       Display/render attributes
+o       [Grouping](#Grouping)
 
-o       Comments
+o       [Display/render attributes](#Display/render attributes)
 
-o       Mathematics for free-form curves/surfaces
+o       [Comments](#Comments)
 
-o       Superseded statements
+o       [Mathematics for free-form curves/surfaces](#Mathematics for free-form curves/surfaces)
 
-o       Patches and free-form surfaces
+o       [Superseded statements](#Superseded statements)
+o       [Patches and free-form surfaces](#Comparison of 2.11 and 3.0 syntax)
 
 ---------------
 
@@ -70,7 +71,7 @@ o       Patches and free-form surfaces
     Germany, as part of a joint development project to incorporate
     free-form surfaces into Wavefront's Advanced Visualizer.
 
-File structure
+###File structure
 
 The following types of data may be included in an .obj file. In this
 list, the keyword (in parentheses) follows the data type.
@@ -166,7 +167,7 @@ The following diagram shows how these parts fit together in a typical
 
 Figure  B1-1.   Typical .obj file structure
 
-General statement
+###General statement
 
 call  filename.ext arg1 arg2 . . .
 
@@ -218,7 +219,7 @@ csh -command
 
     command is the UNIX command.
 
-Vertex data
+###Vertex data
 
 Vertex data provides coordinates for:
 
@@ -347,7 +348,7 @@ vt u v w
 
     w is a value for the depth of the texture. The default is 0.
 
-Specifying free-form curves/surfaces
+###Specifying free-form curves/surfaces
 
 There are three steps involved in specifying a free-form curve or
 surface element.
@@ -427,7 +428,7 @@ surface it is given with.
 
 
 
-Free-form curve/surface attributes
+###Free-form curve/surface attributes
 
 Five types of free-form geometry are available in the .obj file
 format:
@@ -613,7 +614,7 @@ Examples
 
 
 
-Elements
+###Elements
 
 For polygonal geometry, the element types available in the .obj file
 are:
@@ -953,7 +954,7 @@ f -4 -3 -2 -1
 
 
 
-Free-form curve/surface body statements
+###Free-form curve/surface body statements
 
 You can specify additional information for free-form curve and surface
 elements using a series of statements called body statements. The
@@ -1541,7 +1542,7 @@ vertex numbers.
     sp 4
     end
 
-Connectivity between free-form surfaces
+###Connectivity between free-form surfaces
 
 Connectivity connects two surfaces along their trimming curves.
 
@@ -1631,7 +1632,7 @@ curves.
     con 1 2.0 2.0 1 2 4.0 3.0 1
 
 
-Grouping
+###Grouping
 
 There are four statements in the .obj file to help you manipulate groups
 of elements:
@@ -1883,7 +1884,7 @@ the surface.
     end
 
 
-Display/render attributes
+###Display/render attributes
 
 Display and render attributes describe how an object looks when
 displayed in Model and PreView or when rendered with Image.
@@ -2446,7 +2447,7 @@ constant parametric subdivision specified by the ctech command.
 
 
 
-Comments
+###Comments
 
 Comments can appear anywhere in an .obj file. They are used to annotate
 the file; they are not processed.
@@ -2463,7 +2464,7 @@ texture vertices, and vertex normals in a file.
     # 4 texture vertices
     # 4 normals
 
-Mathematics for free-form curves/surfaces
+###Mathematics for free-form curves/surfaces
 
 [I apologize but this section will make absolutely no sense whatsoever
  without the equations and diagrams and there was just no easy way to
@@ -2810,7 +2811,7 @@ S1(m1, n1) is connected to the surface S2(m2, n2).
 
 
 
-Superseded statements
+###Superseded statements
 
 The new .obj file format has eliminated the need for several patch and
 curve statements. These statements have been replaced by free-form
@@ -2910,7 +2911,7 @@ res useg vseg
     direction). The minimum setting is 3 and the maximum setting is
     120.  The default is 4.
 
-Comparison of 2.11 and 3.0 syntax
+###Comparison of 2.11 and 3.0 syntax
 
 Cardinal curve
 
